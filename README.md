@@ -10,7 +10,7 @@ Requires a MongoDB instance to be running to store user credentials and encrypte
 
 ## Features
 ### Express Backend
-A rock solid Node.JS/Express server using Mongoose to organize models and query database
+A Node.JS/Express backend providing a REST API, using Mongoose to organize models and query database
 
 ### Angular (v4)
 Angular-CLI to generate components, services. Local dev server and easy compilation.  
