@@ -1,0 +1,4 @@
+*.log
+node_modules
+public
+angular-src/node_modules
