@@ -20,6 +20,9 @@ Angular-CLI to generate components, services. Local dev server and easy compilat
 ### JWT Tokens
 Full featured authentication using JSON web tokens. Login and store user session token data, using HTML5 localStorage().
 
+## Usage
+git clone https://github.com/minhnpham/meanauthapp.git
+
 ## Notes
 To make this more self contained an SQLite module could be used, replacing all the mongoose requirements.  
 However this is meant for my personal use, for when I need to quickly build a full MEAN stack app so I don't have to deal with all the initial plumbing work.  
