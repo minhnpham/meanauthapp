@@ -4,11 +4,11 @@ FROM node:6
 RUN mkdir -p /opt/meanauthapp
 
 # Copy code to runtime dir
+WORKDIR /opt/meanauthapp
 COPY . /opt/meanauthapp
 
 # Install node modules
-WORKDIR /opt/meanauthapp
-RUN npm install
+RUN cd /opt/meanauthapp && npm install
 
 EXPOSE 3000
 CMD ["npm", "start"]
